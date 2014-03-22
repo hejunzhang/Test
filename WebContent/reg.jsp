@@ -105,26 +105,6 @@ var browserEvent = function (obj, url, title) {
 		}
     }
 };
-/*站内信方式已经替换
-var login_status = 0;
-var getmsgcount  = setTimeout("sms_mon()",5000);//setInterval("sms_mon()",10000);
-function sms_mon(){
-	if (login_status > 0)
-	{
-		$.ajax({
-				url:siteurl+"ajax.php",
-				type: "POST",
-				data:"action=getSmsCount",
-				success: function(data){
-					if(data > 0){
-						openMsgD(data);
-					}
-					//reset_get();
-				}
-			});
-	}
-}
-*/
 </script>
 <script type="text/javascript">
 function show_img(){

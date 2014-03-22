@@ -1,0 +1,381 @@
+﻿/*sale首页*/
+.filter{ height:auto; width:970px; margin:-1px auto;border-left:1px solid #CCC;border-right:1px solid #CCC; border-bottom:1px solid #CCC; }
+.filter ul {width:100%; float:left; clear:both; list-style:none; padding:0; margin:0;}
+.filter ul li { text-align:center; display:inline; float:left; height:24px; line-height:24px; margin:5px 5px 0 5px;}
+.filter ul li a{color:#0041d9;}
+.filter ul li.filterTarget { color:#2e2e2e; font-weight:bold; margin-right:0;}
+.filter ul li.linkOn { color:#ff0000;}
+.filter ul li.linkOn a { color:#ff0000; text-decoration:none;}
+.filter_a{ height:auto; width:950px; margin:-1px auto; padding:10px; }
+.filter_a ul {width:100%; float:left; clear:both; list-style:none; padding:0; margin:0;}
+.filter_a ul li { text-align:center; display:inline; float:left; height:24px; line-height:24px; }
+.filter_a ul li a{color:#0041d9; margin-right:10px; }
+.filter_a ul li.filterTarget { color:#2e2e2e;  margin-right:0;}
+.filter_a ul li.linkOn { color:#ff0000;font-weight:bold;float: left;height: 27px;margin-right: 13px;padding-left: 10px;position: relative;display: inline-block;height: 27px;
+margin-right: 15px;border:solid 1px #bbd5ec; border-bottom:none; background:#f6f9ff;}
+.filter_a ul li.linkOn a { color:#ff0000; text-decoration:none;display: inline-block;height: 27px;margin-right: 11px;}
+.filter_a ul li.linkOns { color:#ff0000;font-weight:bold;}
+.filter_a ul li.linkOns a { color:#ff0000; text-decoration:none;}	
+.even_more_house{ height:31px; background:#f5f5f5; width:958px;padding-top:6px; padding-left:10px;}
+.even_more_house li{ display:block; float:left; }
+.even_more_house_one{ height:31px; line-height:25px;}
+.even_more_house_two{ height:24px; position:relative; z-index:200;margin-right:8px; }
+.even_more_house_two a{ display:block;color:#343434;}
+.zhu_zai_house{width:90px; height:24px; background:url(../images/nav_two_house_er_11.jpg) no-repeat;line-height:24px; color:#343434; padding-left:6px;}
+
+.zhu_zai_house:hover{ text-decoration:none; color:#343434;}
+.zhu_zai_house_t{ background:url(../images/nav_two_house_er_12.jpg) no-repeat; width:77px; height:24px; line-height:24px; padding-left:6px; color:#343434;}
+.zhu_zai_house_t:hover{ color:#343434; text-decoration:none;}
+.even_more_house_two span{ display:block;}
+.even_more_house_two_span{ width:94px; height:auto; position:absolute; border:solid 1px #CCC; height: auto; z-index:600000; background:#FFF; border-top:none; }
+.even_more_house_two_span li{ display:block;  height:20px; line-height:20px; width:94px;}
+.even_more_house_two_span li a{ display:block;  height:20px; line-height:20px; width:88px;color:#343434; float:left;padding-left:6px;}
+.even_more_house_two_span li a:hover{ background:#f5f5f5; text-decoration:none;}
+.even_more_house_two_span_t{ width:81px;height:auto; position:absolute; border:solid 1px #CCC; height:auto; z-index:600000; background:#FFF; border-top:none; }
+.even_more_house_two_span_t li{ display:block;  height:20px; line-height:20px; width:81px;}
+.even_more_house_two_span_t li a{ display:block;  height:20px; line-height:20px; width:75px; color:#343434; float:left;padding-left:6px; }
+.input_class{ float:left; margin-top:2px; display:block;  margin-right:3px;  }
+.even_more_house_two_span_ts{ width:190px;height:auto; position:absolute; border:solid 1px #CCC; height:auto; z-index:600000; background:#FFF;  padding:10px; }
+.even_more_house_two_span_ts li{ display:block;  height:20px; line-height:20px; width:93px; float:left; }
+.even_more_house_two_span_ts li a{ display:block;  height:20px; line-height:20px; width:75px; color:#343434; float:left;  }
+.input_class_que{  display:block; float:right; font-size:12px; color:#333; }
+.even_more_house_two_span_t li a:hover{ background:#f5f5f5; text-decoration:none}
+.find_house_new_case{ height:auto; padding-left:10px; overflow:hidden; padding-bottom:5px;}
+.dang_qian_case_ul{ height:auto; overflow:hidden; float:left; width:860px;}
+. li{ display:block; float:left;}
+.find_house_new_case_li{ float:left; border: solid 1px #CCC; height:22px;margin-top:9px; margin-right:16px; padding:2px 10px 1px 6px; }
+.dang_qian_case{ height:42px; line-height:42px; float:left; width:84px;}
+.find_house_new_case_li_l2{ padding-top:6px;}
+.find_house_new_case_li_l2 a{ background:url(../images/nav_two_house_er_13.jpg) no-repeat; width:8px; height:8px; display:block;}
+.find_house_new_case_li_l1_m{ height:22px; line-height:22px; text-align:center; margin-right:5px;}
+.find_house_new_case li span{ display:block; float:left;}
+.find_house_new_case_li_L1{ float:left; width:103px; margin-top:9px;}
+.find_house_new_case_li_l3{ padding-top:5px; padding-right:3px;}
+.find_house_new_case_li_l4{ padding-top:3px;}
+.find_house_new_case_li_l4 a{ color:#0253e2; text-decoration:none; display:block; height:22px; line-height:22px;}
+.find_house_new_case_li_L20{height:37px; line-height:37px; color:#848a8a; margin-right:16px; padding-top:4px;}
+.find_house_new_case_li_l6{padding-top:5px; padding-right:5px;}
+/*选择类型 sale rent页*/
+.info_box2{ height:auto; width:970px; background:#fafcff; border:1px solid #b7d5f7; padding:0 3px; position:relative;}
+.info_box2 ul {width:100%; float:left; clear:both; list-style:none; padding:0; margin:0;}
+.info_box2 ul li { text-align:center; display:inline; float:left; height:24px; line-height:24px; margin:5px 8px 0 8px;}
+.info_box2 ul li.info_aa { color:#2e2e2e; font-weight:bold; margin-right:0;}
+.info_box2 ul li.info_bb { color:#ff0000;}
+.info_box2 ul li.info_bb a{ color:#ff0000; text-decoration:none;}
+/*详细页售价 原CSS显示太大*/
+.sj2{ font-size:14px; font-weight:bold;}
+.sj2 span{ font-size:22px; color:#ff2d00; font-weight:normal;}
+.sj2 span.wanyuan{ font-weight:normal; font-size:12px; color:#2e2e2e;}
+
+/*避免头部城市区域变长 页码位置出错--去掉绝对定位，漂移到右边*/
+#c .filter_right_new{
+       float: right;
+	right:220px;
+	top:290px;
+	height:32px;
+	width:auto;
+	vertical-align:middle
+}
+/*避免出现二级区域时背景不自动增长 --把height设为auto*/
+.filter{ height:auto; width:970px; *width:970px;margin:0px auto 0;}
+
+
+.bg_bg1{
+	width:90px;
+	height:27px;
+	display:block;
+	background:url(../images/view_xx_bg.gif);
+	float:left;	
+	position:relatived;
+	left:386px;	
+	top:341px;
+	_top:340px;
+	color:#232323;
+	font-weight:bold;
+	text-align:center;
+	line-height:27px;	
+	font-size:13px;
+	_font-size:12px;
+}
+.center_a{
+	border:1px solid #ddd; 
+	float:left; 
+	padding:5px 11px 25px 11px; 
+	height:auto;
+	width:445px;
+	position:relative; 
+	background:#fdfffc; 
+	line-height:22px; 
+	letter-spacing:1px;
+	}
+.center_b{
+		font-size:12px;
+		border:1px solid #ddd;
+		margin-left:25px;
+		float:right; 
+		padding:5px 11px 25px 11px; 
+		height:auto;
+		width:445px;
+		position:relative; 
+		background:#fdfffc; 
+		line-height:22px; 
+		letter-spacing:1px;
+	}
+.ddd{
+	width:40px;
+	height:18px;
+	}
+.bbb{
+	width:40px;
+	height:23px;
+	}
+	/*搜索框开始*/
+.search_box{ height:33px; background:#f9f9f9; border:solid 1px  #CCC;}
+.search_box_lef{ width:325px; height:28px; padding-top:6px; padding-left:6px; float:left; padding-right:266px;_padding-right:245px;*padding-right:253px; }
+.btn_sou_find{ margin-left:10px;}
+.aaaa{-moz-border-bottom-colors: none;
+    _moz-border-image: none;
+    _moz-border-left-colors: none;
+    _moz-border-right-colors: none;
+    _moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #C2C5C7 #C2C5C7 #ABADAF;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1); background: url(../images/ser_for_one.jpg) no-repeat; width:154px; height:21px;
+}
+.sear_lef{ position:relative; width:160px;float:left; z-index:1;}
+.for_sea{ width:150px;}
+.input-tip_a{background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 12px;
+    height: 19px;
+    line-height: 19px;
+    margin-left:25px;
+    outline: medium none;
+    width:120px; color:#aaaaaa}
+.side_search{background:url(../images/search_fd.jpg) no-repeat center;
+border: 0 none;
+    display: block; height:16px;
+    left:2px;
+    top: 2px;
+    width:20px;position: absolute;}
+.btn_search{float:left;}	
+.btn_search a{ display:block; background: url(../images/sou_kuang.jpg) no-repeat; height:21px; width:45px; text-align:center; line-height:22px; text-decoration:none;float:left; color:#333333;}
+.search_box_righ{ float: left; height:22px; padding-top:6px;  width:148px;_width:162px;*width:162px;  }
+.search_box_righ li{ display:block; float:right;}
+.search_box_righ_li_o span{ float:left;height:28px; line-height:28px; margin-right:5px;}
+.search_box_righ_li_o input{ float:left; height:20px; line-height:20px; margin-top:3px; margin-right:3px;}
+search_box_righ_label1{ display:block;width:70px;float:left;_width:75px;*width:75px; }
+CheckboxGroup1_zero{margin-top:0px}
+search_box_righ_label2{display:block;  width:65px; float:left; }
+.for_ser_th tr td{ display:block; float:left; height:23px; line-height:23px;}
+.pag_up a,.page_dow a{ display:block; float:right;}	
+.pag_up a{ background:url(../images/page_one_img.jpg) no-repeat; width:25px; height:24px; margin-right:10px;}
+.page_dow a{ background: url(../images/lie_biao_down_page_btn.jpg) no-repeat; width:72px; height:25px; margin-left:10px;}
+.sort_o{ height:30px; line-height:20px; float:left; color:#aaaaaa;}
+a.input_pxbg_sum{ background:url(../images/btn_ser_img.jpg) no-repeat;color:#454545; width:45px; height:21px; float:left; line-height:21px; padding-left:5px; display:block}
+.input_pxbg_t {width:45px; height:22px; *line-height:20px; _padding:0px 0 0 0px; margin-right:6px; float:left; padding:1px 0px 0px 5px; line-height:18px;}
+a.input_pxbg_t{ background: url(../images/btn_ser_img.jpg) no-repeat;border:0; color:#454545; width:45px; height:22px; }
+a:hover.input_pxbg_t{ background:url(../images/area_two_img.jpg) no-repeat;border:0; color:#2f5aaf; width:45px; height:22px; text-decoration:none; color:#2e5bb0; }
+
+.bulid_yea{ background: url(../images/for_ser_onee.jpg)no-repeat; width:90px; height:21px; border:0px; padding-top:1px; padding-right:1px;}
+.bulid_yea_s{ background: url(../images/for_ser_111.jpg)no-repeat; width:140px; height:21px; border:0px; padding-top:1px; padding-right:1px;}
+
+.bulid_yea_op{ height:23px; line-height:23px; vertical-align:middle;}
+.bulid_yea_hous{ background:url(../images/for_ser_onee.jpg) no-repeat; width:89px; height:21px; border:0px;padding-top:1px; padding-right:1px;}
+.bulid_yea_hou{ background:url(../images/for_ser_onee.jpg) no-repeat; width:89px; height:21px; border:0px;padding-top:1px; padding-right:1px; }
+
+.bulid_yea_floor{height:23px; line-height:23px; vertical-align:middle;overflow:hidden;}
+.table_buli{ padding-right:5px;}
+.midd_yuan{
+	font-size:12px;
+	color:#ed6100;
+	font-weight:normal;
+	font-family:"宋体";
+}
+.hous_lisr_page{ border:solid 1px #CCC; height:95px; margin-bottom:7px; clear:both; overflow:hidden; padding-top:15px; padding-left:15px;}
+.hous_lisr_page_lef{ float:left; width:375px; height:110px; clear:both; overflow:hidden;}
+.hous_lisr_page_righ{ float:left; width:350px;height:110px;}
+.hous_lise_img{ padding:1px; border:solid 1px #CCC; width:100px; float:left;}
+.hous_lise_write{ padding-left:15px; height:95px; float:left;}
+.hous_lise_write a{ display:block; color:#2f5cb1; font-weight: bold;}
+.hous_lise_write a:hover{ color:#F00;}
+.hous_lise_write dt { display:block; height:23px; line-height:23px;}
+.hous_lise_write dd{ height:20px; line-height:20px; display:block; color:#707070;}
+.hous_lise_write dd span{ color:#ff0100; font-weight:bold; font-size:14px;}
+
+/********************************学校列表**********/
+.new_house_find_subway_xue_qu { margin:-1px auto 0;width:970px; height:auto; overflow:hidden; }
+.aa_li1{ height:30px; line-height:30px; width:953px;padding-left:15px;}
+.aa_li1 li{ display:block; float:left;}
+.aa_li1 li a{ padding:8px 7px 0px 9px; color:#0140db;}
+.lei_bie_rgb,.lei_bie_rgb_a{ color:#333; height:24px; line-height:24px;}
+.aa_li2{ height:28px;width:953px; overflow:hidden;padding-left:15px; position:relative;}
+.aa_li2 li{ display:block; float:left;}
+.aa_li2 li a{ display:block;}
+
+.chang_ping{ padding:8px 7px 6px 9px; color:#0140db;}
+.chang_ping:hover{padding:7px 6px 6px 8px; color:#0140db; background:#f6f9fe; border:solid 1px #bbd5ec; border-bottom:none;}
+.aa_li3{ height:auto; background:#f6f9ff; border:solid 1px #bbd5ec; margin-left:41px; margin-right:5px; overflow:hidden; width:905px;padding-left:0px; text-align:left;vertical-align:top;}
+.aa_li3 li{ display:block; float:left; padding:10px 8px 10px 6px;display:inline-block;}
+.color_red{ color:#F00; font-weight:bold;}
+.aa_li3 li a{color:#0140db; display:block; float:left; display:inline-block;}
+.aa_li4{ height:25px;  line-height:25px;padding-left:15px;}
+.aa_li4 li{ display:block; float:left;}
+.li_01l{margin:3px 8px 0px 0px;}
+.color_blu{color:#0140db; margin-right:8px;}
+.all_fy_bg2{ float:left; line-height:41px; padding-left:350px;}
+.all_fy_bg2 span{ display:block; float:left; }
+.property2_right_p_xiao{ width:618px; float:left; margin-left:10px; }
+.property2_right_p_up_xiao{ width:400px; height:80px; float:left; border-right:dashed 1px #CCC;}
+.district_li span{ display:block; float:left; margin-right:5px;}
+.district_li span a{ color:#0053e1;}
+.color_font_w{ font-weight:bold; color:#0053e1; font-size:14px;}
+.property2_right_p_down_xiao{ height:80px; float:left; width:200px; padding-left:10px;}
+.property2_right_p_down_xiao li{ display:block; height:20px; line-height:20px;}
+.property2_right_p_down_xiao li a{color:#0053e1; font-size:12px;}
+.property2_right_p_down_xiao li span{ display:block; float:left;}
+.with_115p{ width:115px;}
+#list_body .property3 { float: left;height: auto;overflow: hidden;padding: 18px 0 16px;width: 750px;}
+div.photo_xiao {border: 1px solid #D7D7D7;float: left; height: 75px; padding: 1px; width: 100px;}
+/************************************学区房详情页********************************/
+.filterTarget span{ display:block; float:left; width:35px; text-align:left;}
+.school_house_xiang{ height:100px; padding-top:10px; }
+.school_house_xiang_l{ float:left; width:135px; padding-left:10px; padding-right:10px;}
+.school_house_xiang_l a{ display:block; width:120px; height:90px; border:solid 1px #CCC; padding:5px;}
+.school_house_xiang_r{ display:block; float:left;}
+.school_house_xiang_r dt{ height:25px; line-height:25px; }
+.school_house_xiang_r dt a{font-size:14px; color:#323232; font-weight:bold;}
+.school_house_xiang_r dd{ height:20px; line-height:20px; color:#323232;}
+/***********************************区域 地铁 地图***********二手房租房导航下******************/
+.btu-search {
+    height: 31px;
+    overflow: hidden;
+    width: 960px; 
+}
+.btu-search a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background:url(../images/btu-off.gif) repeat-x scroll 0 0 transparent;
+    /*border-color: #D4D4D4 #D4D4D4 -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;*/
+	 border:solid 1px #D4D4D4;
+    color: #0000FF;
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: -1px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+}
+.btu-search a:hover {
+    background: url(../images/btu-hover.gif) repeat-x scroll 0 0 transparent; text-decoration:none;
+}
+.btu-search a strong {
+    background-image: url(../images/icon_chang.gif);
+    background-repeat: no-repeat;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    height: 29px;
+    line-height: 29px;
+    margin: 0 auto;
+    padding-left: 20px;
+    width: 72px;
+}
+ .btu-search .btuon {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url(../images/btu-on.gif) repeat-x scroll 0 0 transparent;
+    border-color: #ccc #ccc-moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    margin-right: -1px;
+    position: relative;
+    z-index: 1;
+}
+ .btu-search .btuon:hover {
+    background: url(../images/btu-on.gif) repeat-x scroll 0 0 transparent;
+}
+ .btu-search .btuon strong {
+    font-weight: bolder;
+}
+ .btu-search .qycx {
+    background-position: 0 10px;
+}
+ .btu-search .bjdtcx {
+    background-position: 0 -32px;
+}
+.btu-search .xxcx {
+    background-position: 0 -113px;
+}
+ /*************************************急租*****急售***全部房源***************************************************/
+ .hdm{ width:395px;float:left; padding-top:19px;}
+ .hdm dl {
+    height: 26px;
+}
+.hdm dd {
+    cursor: pointer;
+    line-height: 25px;
+    text-align: center;
+}
+.hdm .option1, .hdm .option1 a, .hdm .option2 a, .hdm .option2 a:hover, .mapsearch {
+    background:url(../images/cc.jpg) no-repeat ;
+    float: left;
+}
+.hdm .option1 { background:url(../images/dd.jpg)
+    font-weight: 700;
+    height: 25px;
+}
+.hdm .option1 a {
+    color: #FFFFFF;
+    height: 26px;
+    margin-right: -1px;
+    position: relative;
+    z-index: 1; width:87px; font-weight:bold;
+}
+.hdm .option1 a:hover{ text-decoration:none;}
+.hdm .option2 a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background:url(../images/dd.jpg) no-repeat;
+   /* border-color: #CBCBCB #CBCBCB -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;*/
+	border:solid 1px #CBCBCB;
+    height: 25px;
+    margin-right: -1px;
+    overflow: hidden; width:58px; border-bottom:none; color:#333333;
+}
+.hdm .option2 a:hover { background:url(../images/j.jpg) no-repeat;
+    display: inline-block;color:#333333; text-decoration:none;
+}
+
+.fy_intruduce{ width:900px; height:47px;margin:20px auto 0; padding:7px 10px 7px 58px;background:url(/images/tj_fy.jpg) -1px -1px no-repeat;  border:1px solid #ccc;; }
+.fy_intruduce a{ float:left;width:164px; height:46px; margin-right:10px;  border:1px solid #eaeaea;text-decoration:none; color:#000;*margin-right:2px;  }
+.fy_intruduce a:hover{ text-decoration:underline; }
+.fy_intruduce a img{ float:left;width:60px; }
+.fy_intruduce a p{ padding-left:68px; font-size:12px; line-height:20px; }
+.fy_intruduce a span{float:left; padding-left:8px;color:#fc6701; font-size:14px;font-weight:bold;  }
+.jjr_title{ width:210px; height:36px;margin-top:14px; margin-bottom:10px; background:url(../images/con_xuxian_03.jpg) 0 bottom repeat-x;font-size:18px;color:#1b1b1b; }
+.jjr_title h5 span{  padding-left:10px;font-size:14px;}
+.jjr_title h5 i{ font-style:normal;font-size:14px; }
+.zj_jjr{ height:110px; padding:8px 0px 8px 3px; border-bottom:1px solid #eaeaea; }
+.jjr_img{ float:left; width:75px;height:105px; margin-right:4px;}
+.jjr_msg{ float:left; line-height:13px;width:124px;height:108px; overflow:hidden; }
+.jjr_msg h6{ color:#2f2f2f;width:118px; height:14px; }
+.jjr_msg p{ color:#6f6f6f; font-size:12px; height:14px;margin-top:8px;width:118px; }
+.jjr_msg p span{ float:left; }
+.jjr_msg p a{ margin:0 10px 0 5px;line-height:20px; color:#000; text-decoration:none; }
+.jjr_msg p a:hover{ text-decoration: underline; }
