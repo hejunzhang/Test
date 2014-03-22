@@ -15,5 +15,5 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="D:/quikapp/quikweb/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="D:/Tools/exuan/SSH/mysql-connector-java-5.0.8-bin.jar"/>
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>
