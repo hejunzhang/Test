@@ -7,46 +7,47 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "p_user")
+@Table(name = "user")
 public class User {
 	private int id;
 	private String name;
 	private String password;
-	private int age;
+	private String phone;
+	private String sex;
 
 	@Column(name="name", length=30, nullable=false, unique=true)
 	public String getName() {
 		return name;
 	}
-
 	public void setName(String name) {
 		this.name = name;
 	}
 	
-	@Column(name="password", length=20, nullable=false, unique=true)
+	@Column(name="password", length=20, nullable=false)
 	public String getPassword() {
 		return password;
 	}
-
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	@Column(name="age", length=10)
-	public int getAge() {
-		return age;
+	
+	@Column(name="phone", length=20, nullable=true)
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 
-	public void setAge(Integer age) {
-		this.age = 0;
-		if (age != null) {
-			this.age = age;
-		}
+	@Column(name="sex", length=20, nullable=true)
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
 	}
 
 	@Id
-	//采用数据库自增方式生成主键
-	//@GeneratedValue(strategy=GenerationType.AUTO)
 	@GeneratedValue
 	public int getId() {
 		return id;
@@ -54,5 +55,13 @@ public class User {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+	
+	public User(int id, String name, String password, String sex, String phone){
+		this.id = id;
+		this.name = name;
+		this.password = password;
+		this.sex = sex;
+		this.phone = phone;
 	}
 }

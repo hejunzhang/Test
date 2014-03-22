@@ -3,7 +3,7 @@ package com.jialin.action;
 import javax.annotation.Resource;
 
 import com.jialin.entity.User;
-import com.jialin.service.IUserManage;
+import com.jialin.service.UserManage;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class UserAction extends ActionSupport {
@@ -11,14 +11,14 @@ public class UserAction extends ActionSupport {
 	private User user;
 
 	@Resource  
-	private IUserManage userManage;
+	private UserManage userManage;
 	
 
-	public void setUserManage(IUserManage userManage) {
+	public void setUserManage(UserManage userManage) {
 		this.userManage = userManage;
 	}
 	
-	public IUserManage getUserManage() {
+	public UserManage getUserManage() {
 		return userManage;
 	}
 

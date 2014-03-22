@@ -21,7 +21,7 @@
 		<!-- <property name="userDao" ref="userDao"></property> -->
 	</bean>
 	
-	<bean name="userDao" class="com.jialin.dao.UserDaoImp">
+	<bean name="userDao" class="com.jialin.service.UserManageImp">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 	

@@ -17,29 +17,18 @@ public class LoginAction extends ActionSupport {
 	public User getUser() {
 		return user;
 	}
-
 	public void setUser(User user) {
 		this.user = user;
 	}
 
 	@Override
 	public String execute() throws Exception {
-		
-		HttpServletRequest request=ServletActionContext.getRequest();
-		
-		System.out.println(request.getCharacterEncoding());
-		
-		if("root".equals(user.getName()) && "root123".equals(user.getPassword()))
-		{
+		HttpServletRequest request=ServletActionContext.getRequest();		
+		if("root".equals(user.getName()) && "root123".equals(user.getPassword())){
 			Map session=ActionContext.getContext().getSession();
-			session.put("user.name", user.getName());
-			
-			System.out.println("登录成功,用户名="+user.getName());
+			session.put("username", user.getName());
 			return "success";
 		}
-		
-		System.out.println("登录失败，用户名="+user.getName());
 		return "fail";
 	}
-	
 }
