@@ -1,0 +1,63 @@
+/* CSS Document */
+
+html{overflow-y:scroll;}  
+@charset "UTF-8";
+*{ padding:0; margin:0;}
+div,form,img,ul,ol,li,dl,dt,dd {margin: 0; padding: 0; border: 0;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0; font-style:normal;}
+table,td,tr,th{font-size:12px;}
+.clearall:after {content:".";display:block; clear:both; height:0; visibility:hidden;}
+ul li{ list-style:none outside none;}
+body{ font-size:12px; text-decoration:none; color:#2e2e2e; margin:0;}
+a:link,a:visited{  text-decoration:none;}
+a:hover,a:active{ font-size:12px;  }
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.registration{ width:970px; height:auto; overflow:hidden; margin:0 auto; border:solid 1px #cccccc;}
+.Free_registration{ width:970px; float:left; height:300px; border-right:solid 1px #CCC;}
+.Free_registration h2{ height:30px; background:#f5f5f5; font-size:14px; text-align:center; color:#797979; line-height:30px;}
+.Free_registration li{ display:block;}
+.free_registration_li1{ height:93px; line-height:75px; color:#eaa712; font-size:24px; font-weight:bold; text-align:center;}
+.free_registration_li2{ padding-left:320px; height:30px; line-height:30px; margin-bottom:17px;}
+.free_registration_li2 span{ display:inline-block; float:left;}
+.free_registration_li2_span1{font-size:14px; color:#797979; width:50px; text-align:right; padding-right:10px;}
+.free_registration_li2_input1{ width:215px; height:28px; border:solid 1px #CCC;line-height:28px;}
+.free_registration_li3{ padding-left:380px; height:30px; line-height:30px; margin-bottom:17px;}
+
+.free_registration_li3 a{ font-size:14px;float:center; color:#1e51a0; height:30px; line-height:30px; text-decoration:underline;}
+
+.User_login{ float:left; width:970px;height:auto;}
+.User_login h2{ height:30px; background:#f5f5f5; font-size:14px; text-align:center; color:#797979; line-height:30px; margin-bottom:50px;}
+.width_140{ width:140px; text-align:right;}
+.free_registration_li4{ padding-left:240px; height:30px; line-height:30px; margin-bottom:17px;}
+.free_registration_li4 span{ display:inline-block; float:left;}
+.free_registration_li5{ padding-left:380px;}
+.free_registration_li5 a{ color:#1e51a0;text-decoration:underline; }
+
+/********login*************/
+.modify_left{ float:left; width:211px; height:auto; overflow:hidden;}
+.modify_left dl{ display:block; height:38px; padding-top:15px; padding:15px 0px 18px 18px; border:solid 1px #CCC;}
+.modify_left dl dt{ display:block; float:left; width:48px;}
+.modify_left dl dd{ display:block; float:left; width:130px; padding-left:9px; line-height:20px; color:#000;}
+.modify_left h2{ background:#f4af14; height:31px; line-height:31px; color:#FFF; font-size:14px; font-weight:bold; padding-left:22px;}
+.modify_left h2 span{ display:block; float:left;}
+.modify_left ul{ display:block; height:auto; overflow:hidden; padding-left:15px; border:solid 1px #CCC;}
+.modify_left li{ display:block; padding-top:10px; border-bottom:dashed 1px #CCC; line-height:20px; padding-left:5px; height:auto; overflow:hidden;}
+.modify_left li span{ display:block; float:left;}
+.modify_left li a{ color:#000; text-decoration:none;}
+.one_person_new{ height:auto; overflow:hidden; background:#f0f0f0; margin-bottom:5px;}
+.one_person_new a{ display:block; line-height:25px; color:#000; padding-left:20px;}
+/************reg******************/
+.modify_right{ float:left; width:750px; margin-left:9px; height:auto; overflow:hidden;}
+.modify_right h2{ border-bottom:solid 1px #f4af14; display:block; height:27px;}
+.modify_right h2 span{ height:27px; background:#f4af14; line-height:27px; color:#FFF; font-size:14px; font-weight:bold; width:116px; display:block; float:left; text-align:center;}
+.modify_right_down{ height: auto; overflow:hidden; border:solid 1px #ccc; padding-top:15px; margin-top:8px;}
+.modify_right_down li{ margin-bottom:20px; height:auto; overflow:hidden;}
+.modify_span1{ width:316px; text-align:right; margin-right:10px;}
+.modify_right_down span{ display:block; float:left;line-height: 20px;}
+.modify_span2{ width:157px; height:20px; line-height:20px; padding-left:5px;}
+.modify_span3{ color:#F00; height:20px; line-height:20px; font-size:14px; padding-right:10px;padding-left:10px;}
+
+.modify_right tr{ height:25px; line-height:25px;}
+.modify_right tr td{ text-align:center;}

@@ -12,16 +12,17 @@ public class Rent {
 	private int id;
 	private String type;		//出租，求租
 	private String username;	//发布人
+	private String title;		//标题
 	private String region;		//区域
 	private int price;			//价格
 	private int area;			//面积
 	private String housetype;	//户型
 	private int floor;			//楼层
-	private String condition;	//装修情况
-	private boolean furniture;	//是否有家具
-	private boolean device;		//是否有家电
-	private boolean tv;			//是否有电视
-	private boolean network;	//是否有网络
+	private String fit;			//装修情况
+	private int furniture;		//是否有家具
+	private int device;			//是否有家电
+	private int tv;				//是否有电视
+	private int network;		//是否有网络
 	private String issuedate;	//发布日期
 	private String remark;		//备注
 	
@@ -48,6 +49,14 @@ public class Rent {
 	}
 	public void setUsername(String username) {
 		this.username = username;
+	}
+	
+	@Column(name="title", length=40, nullable=false)
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
 	}
 	
 	@Column(name="region", length=20, nullable=false)
@@ -90,43 +99,43 @@ public class Rent {
 		this.floor = floor;
 	}
 	
-	@Column(name="condition", length=20, nullable=false)
-	public String getCondition() {
-		return condition;
+	@Column(name="fit", length=20, nullable=false)
+	public String getFit() {
+		return fit;
 	}
-	public void setCondition(String condition) {
-		this.condition = condition;
+	public void setFit(String fit) {
+		this.fit = fit;
 	}
 	
 	@Column(name="furniture", nullable=false)
-	public boolean isFurniture() {
+	public int getFurniture() {
 		return furniture;
 	}
-	public void setFurniture(boolean furniture) {
+	public void setFurniture(int furniture) {
 		this.furniture = furniture;
 	}
 	
 	@Column(name="device", nullable=false)
-	public boolean isDevice() {
+	public int getDevice() {
 		return device;
 	}
-	public void setDevice(boolean device) {
+	public void setDevice(int device) {
 		this.device = device;
 	}
 	
 	@Column(name="tv", nullable=false)
-	public boolean isTv() {
+	public int getTv() {
 		return tv;
 	}
-	public void setTv(boolean tv) {
+	public void setTv(int tv) {
 		this.tv = tv;
 	}
 	
 	@Column(name="network", nullable=false)
-	public boolean isNetwork() {
+	public int getNetwork() {
 		return network;
 	}
-	public void setNetwork(boolean network) {
+	public void setNetwork(int network) {
 		this.network = network;
 	}
 	
